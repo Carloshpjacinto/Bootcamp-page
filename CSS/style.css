@@ -1,3 +1,5 @@
+/*variables*/
+
 :root{
 
     --black_dnc:#303030;
@@ -13,10 +15,14 @@ body{
 
     margin: 0;
     padding: 0;
-    
+
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background-repeat: no-repeat;
+
 }
 
 /*Header Nav Top*/
+
 #navHeader{
 
     background-color: var(--black_dnc);
@@ -66,3 +72,46 @@ body{
         box-shadow: 3px 2px 4px #0C70F240;
         cursor: pointer;
     }
+
+/*Header text middle*/
+
+#textHeader{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+    #textHeader h1{
+
+        font-family: var(--font_default);
+        font-size: 80px;
+        font-weight: 800;
+        margin-top: 100px;
+        padding: 0;
+        color: var(--white_dnc);
+
+        width: 100%;
+
+    }
+
+    #textHeader h2{
+
+        font-family: var(--font_default);
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: -30px;
+        padding: 0;
+        color: var(--white_dnc);
+
+        width: 100%;
+
+    }
+    
+    h2 .boldbackground{
+
+        background-color: rgba(0, 0, 0, 0.500);
+        font-weight: bold;
+    }
+    
