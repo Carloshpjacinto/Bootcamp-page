@@ -13,8 +13,8 @@
 
 body{
 
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 
     background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body{
 
     }
 
-    button{
+    #navHeader button{
 
         /*Size and position of button*/
         width: 80px;
@@ -89,7 +89,7 @@ body{
         font-size: 80px;
         font-weight: 800;
         margin-top: 100px;
-        padding: 0;
+        padding: 0px;
         color: var(--white_dnc);
 
         width: 100%;
@@ -102,7 +102,7 @@ body{
         font-size: 40px;
         font-weight: 500;
         margin-top: -30px;
-        padding: 0;
+        padding: 0px;
         color: var(--white_dnc);
 
         width: 100%;
@@ -122,7 +122,63 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 
 }
 
+    form label{
+
+        margin: 20px 0px 20px 0px;
+        padding: 0px;
+
+        font-family: var(--font_default);
+        color: var(--white_dnc);
+        font-size: 25px;
+        font-weight: 600;
+        
+    }
+
+    form .inputForm{
+
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form .inputForm input{
+
+        width: 630px;
+        height: 46px;
+        border-radius: 10px;
+    }
+
+    #sectionCheckbox{
+        
+        display: flex;
+        margin-left: -100px;
+    }
+
+    #sectionCheckbox input[type="checkbox"]{
+
+        transform: scale(1.5);
+    }
+
+    form button{
+
+        /*Size and position of button*/
+        align-items: center;
+        padding: 0px;
+        margin: 50px 405px 50px 405px;
+        width: 630px;
+        height: 56px;
+
+        /*Style of button*/
+        background-color: var(--blue_dnc);
+        border-radius: 10px;
+        border: 0px;
+        font-family: var(--font_default);
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--white_dnc);
+
+    }
