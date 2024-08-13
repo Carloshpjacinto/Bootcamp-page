@@ -1,0 +1,67 @@
+:root{
+
+    --black_dnc:#303030;
+
+    --white_dnc: #FFFFFF;
+
+    --blue_dnc: #0C70F2;
+
+    --font_default: "Inter";
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Header Nav Top*/
+#navHeader{
+
+    background-color: var(--black_dnc);
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+    #linksNavHeader{
+
+        margin-left: 96px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+    }
+
+    #linksNavHeader a{
+
+        font-family: var(--font_default);
+        font-size: 25px;
+        font-weight: 600;
+        color: var(--white_dnc);
+        text-decoration: none;
+        padding-right: 25px;
+
+    }
+
+    button{
+
+        /*Size and position of button*/
+        width: 80px;
+        height: 39;
+        margin-top: 31px;
+        margin-bottom: 31px;
+        margin-right: 150px;
+
+        /*style of button*/
+        background-color: var(--blue_dnc);
+        border: 0;
+        color: var(--white_dnc);
+        font-family: var(--font_default);
+        font-size: 20px;
+        font-weight: 600;
+        box-shadow: 3px 2px 4px #0C70F240;
+        cursor: pointer;
+    }
+    
