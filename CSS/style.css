@@ -101,7 +101,7 @@ body{
         font-family: var(--font_default);
         font-size: 40px;
         font-weight: 500;
-        margin-top: -30px;
+        margin-top: -35px;
         padding: 0px;
         color: var(--white_dnc);
 
@@ -125,7 +125,7 @@ form{
 
 }
 
-    form label{
+    form .inputForm label{
 
         margin: 20px 0px 20px 0px;
         padding: 0px;
@@ -153,14 +153,43 @@ form{
     }
 
     #sectionCheckbox{
-        
+
         display: flex;
-        margin-left: -100px;
+        flex-direction: column;
+
+        width: 640px;
     }
 
-    #sectionCheckbox input[type="checkbox"]{
+    #checkboxList{
 
-        transform: scale(1.5);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #checkboxList input[type="checkbox"]{
+
+        transform: scale(1.7);
+    }
+
+    #sectionCheckbox label{
+
+        font-family: var(--font_default);
+        font-size: 25px;
+        font-weight: 600;
+        color: var(--white_dnc);
+        margin: 20px 0px 20px 0px;
+        padding: 0;
+    }
+
+    #sectionCheckbox div label{
+
+        font-family: var(--font_default);
+        font-size: 25px;
+        font-weight: 600;
+
+        color: var(--white_dnc);
+
     }
 
     form button{
