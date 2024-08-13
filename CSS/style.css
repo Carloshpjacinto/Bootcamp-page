@@ -13,7 +13,7 @@ body{
 
     margin: 0;
     padding: 0;
-
+    
 }
 
 /*Header Nav Top*/
@@ -23,6 +23,8 @@ body{
 
     display: flex;
     justify-content: space-between;
+
+    border-bottom: 1px solid #BABABA;
 
 }
 
@@ -64,4 +66,3 @@ body{
         box-shadow: 3px 2px 4px #0C70F240;
         cursor: pointer;
     }
-    
