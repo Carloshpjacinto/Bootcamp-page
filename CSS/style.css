@@ -117,11 +117,14 @@ body{
 
 
 /*start Section form*/
+
 form{
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-top: 100px;
 
 }
 
@@ -213,10 +216,11 @@ form{
     }
 
 /* Footer */
+
 footer{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     background-color: var(--blue_dnc);
 
@@ -232,6 +236,7 @@ footer{
         background-color: var(--black_dnc);
         padding: 10px;
         margin-top: 60px;
+        margin-left: 100px;
         width: 40%;
         text-align: center;
         align-items: center;
@@ -253,12 +258,12 @@ footer{
         font-weight: 800;
     }
 
-    footer .itemListOne{
+    footer .itemList{
 
         margin-top: 30px;
     }
 
-    /* List one Left */
+    /* List two Left */
     footer #titlelistFooter2{
 
         font-family: var(--font_default);
@@ -267,7 +272,8 @@ footer{
         background-color: var(--black_dnc);
         padding: 10px;
         margin-top: 60px;
-        width: 70%;
+        width: 100%;
+        margin-left: -50px;
         text-align: center;
         align-items: center;
         border-radius: 10px;
@@ -286,4 +292,44 @@ footer{
         font-family: var(--font_default);
         font-size: 25px;
         font-weight: 800;
+
+        margin-left: -100px;
+    }
+    
+    footer #address{
+
+        font-family: var(--font_default);
+        font-size: 20px;
+        font-weight: 800;
+
+        color: var(--white_dnc);
+
+        margin-top: 185px;
+    }
+
+/* Links end page*/
+#linksFooterEnd{
+
+    background-color: var(--blue_dnc);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+    .linkEndPage{
+
+        color: var(--white_dnc);
+        font-family: var(--font_default);
+        font-size: 25px;
+        padding: 10px;
+
+        margin-top: 60px;
+
+    }
+
+    #linksFooterEnd h3:first-child{
+
+        border-right: 3px solid white;
+
     }
