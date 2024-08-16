@@ -111,7 +111,7 @@ body{
     
     h2 .boldbackground{
 
-        background-color: rgba(0, 0, 0, 0.500);
+        background-color: #121111d6;
         font-weight: bold;
     }
 
@@ -151,8 +151,21 @@ form{
     form .inputForm input{
 
         width: 630px;
-        height: 46px;
+        height: 30px;
         border-radius: 10px;
+
+        border: 0px;
+        
+        padding: 15px;
+    }
+
+    form .inputForm  input::placeholder{
+
+        font-family: var(--font_default);
+        font-size: 20px;
+        font-weight: 400;
+        color: #39393980;
+        
     }
 
     #sectionCheckbox{
@@ -200,7 +213,7 @@ form{
         /*Size and position of button*/
         align-items: center;
         padding: 0px;
-        margin: 50px 405px 50px 405px;
+        margin: 100px 405px 50px 405px;
         width: 630px;
         height: 56px;
 
@@ -236,7 +249,7 @@ footer{
         background-color: var(--black_dnc);
         padding: 10px;
         margin-top: 60px;
-        margin-left: 100px;
+        margin-left: 107px;
         width: 40%;
         text-align: center;
         align-items: center;
@@ -273,7 +286,7 @@ footer{
         padding: 10px;
         margin-top: 60px;
         width: 100%;
-        margin-left: -50px;
+        margin-left: -42px;
         text-align: center;
         align-items: center;
         border-radius: 10px;
@@ -325,6 +338,7 @@ footer{
         padding: 10px;
 
         margin-top: 60px;
+        margin-bottom: 60px;
 
     }
 
