@@ -1,5 +1,4 @@
 /*variables*/
-
 :root{
 
     --black_dnc:#303030;
@@ -82,6 +81,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 2rem 0rem 0rem 0rem;
 
 }
 
@@ -127,13 +127,13 @@ form{
     flex-direction: column;
     align-items: center;
 
-    margin-top: 100px;
+    margin-top: 7rem;
 
 }
 
     form .inputForm label{
 
-        margin: 20px 0px 20px 0px;
+        margin: 25px 0px 20px 0px;
         padding: 0px;
 
         font-family: var(--font_default);
@@ -145,7 +145,7 @@ form{
 
     form .inputForm{
 
-        margin: 0px;
+        margin: 1.5rem 0rem 0rem 0rem;
         padding: 0px;
         display: flex;
         flex-direction: column;
@@ -193,6 +193,8 @@ form{
     #checkboxList input[type="checkbox"]{
 
         transform: scale(1.7);
+        cursor: pointer;
+
     }
 
     #sectionCheckbox label{
@@ -221,7 +223,7 @@ form{
         /*Size and position of button*/
         align-items: center;
         padding: 0px;
-        margin: 100px 405px 50px 405px;
+        margin: 100px 405px 100px 405px;
         width: 630px;
         height: 56px;
 
@@ -234,20 +236,25 @@ form{
         font-weight: 600;
         color: var(--white_dnc);
 
+        cursor: pointer;
+
     }
 
 /* Footer */
 
 footer{
 
-    display: flex;
-    justify-content: space-around;
-
     background-color: var(--blue_dnc);
 
-    margin-top: 150px;
-
 }
+
+    #footerLinktop{
+
+        display: flex;
+        justify-content: space-between;
+        margin: 5rem 10rem 0rem 3rem;
+
+    }
 
     /* List one Right */
     footer #titlelistFooter1{
@@ -284,6 +291,7 @@ footer{
     footer .itemList{
 
         margin-top: 30px;
+        cursor: pointer;
 
     }
 
@@ -340,6 +348,7 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: 5rem 0rem 0rem 0rem;
 
 }
 
@@ -351,7 +360,8 @@ footer{
         padding: 10px;
 
         margin-top: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+        cursor: pointer;
 
     }
 
